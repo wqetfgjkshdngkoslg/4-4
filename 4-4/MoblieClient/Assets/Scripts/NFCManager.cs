@@ -12,6 +12,11 @@ public class NFCManager : MonoBehaviour
     private const string WITNESS_ID = "041119252c0389";
     private const string CYBER_ID = "0461d9202c0389";
 
+    // 테스트용 카드 ID
+    private const string UNKNOWN_ID = "0401BC292C0389";
+    private const string INVALID_ID = "0461E71A2C0389";
+    private const string UNREGISTERED_ID = "045167222C0389";
+
     // ──────────────────────────────────────
     // NativeNFC 컴포넌트
     // ──────────────────────────────────────
